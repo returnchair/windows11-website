@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="us-ascii">
+
+<body>
+  
+<div class="main center">
+  <div style="font-size: 20px;">Error 401 &gt; Auth Required</div>
+</div>
+
+<!--#echo var="HTTP_REFERER" -->
+
+<p>
+<!--#echo var="REMOTE_ADDR" --><br/>
+<!--#echo var="HTTP_USER_AGENT" --><br/>
+<!--#echo var="REQUEST_URI" --><br/>
+<!--#echo var="REDIRECT_STATUS" --></p>
+
+</body>
+
+</head>
+
+</html>
